@@ -53,7 +53,7 @@ address{
 	left:0;
 	min-height: 300px;
 }
-#carouselButtons{
+#carousel-button{
 	right: 0px;
 	bottom: 0px;
 	position: absolute;
