@@ -12,4 +12,10 @@ $(document).ready(function(){
                     $("#carousel-button").children("span").addClass("fa-pause");                    
                 }
             });
-        });
+			$("#login-button").click(function(){
+				$("#loginmodal").modal('show');
+			});
+			$("#reserve-table").click(function(){
+				$("#reservemodal").modal({show: true});
+			});
+});
